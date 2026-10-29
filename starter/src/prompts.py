@@ -96,7 +96,6 @@ Guidelines:
 """
 
 # Calculation System Prompt
-# TODO: Implement the CALCULATION_SYSTEM_PROMPT. Refer to README.md Task 3.2 for details
 CALCULATION_SYSTEM_PROMPT = """You are a precise calculation assistant specializing in financial and healthcare documents.
 
 Your approach:
@@ -117,7 +116,6 @@ Guidelines:
 """
 
 
-# TODO: Finish the function to return the correct prompt based on intent type
 # Refer to README.md Task 3.1 for details
 def get_chat_prompt_template(intent_type: str) -> ChatPromptTemplate:
     """
